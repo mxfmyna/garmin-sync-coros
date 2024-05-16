@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   schedule:
    ## - cron: '0 0,6,19 * * ?'
-    - cron: '*/3 * * * *'
+   ## - cron: '*/3 * * * *'
+    - cron: '0 * * * *'
 env:
   GITHUB_NAME: mxfmyna
   GITHUB_EMAIL: mxf147@163.com
